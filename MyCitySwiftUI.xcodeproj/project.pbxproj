@@ -234,13 +234,37 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		69E413DD2941F064002FE99D /* WeatherView */ = {
+		6997E9912959C13200278642 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69E413E22941F251002FE99D /* CurrentWeatherView.swift */,
+				69E413E42941F268002FE99D /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6997E9922959C14D00278642 /* WeatherManager */ = {
 			isa = PBXGroup;
 			children = (
 				69E413DE2941F09E002FE99D /* WeatherManager.swift */,
-				69E413E22941F251002FE99D /* CurrentWeatherView.swift */,
-				69E413E42941F268002FE99D /* LoadingView.swift */,
+			);
+			path = WeatherManager;
+			sourceTree = "<group>";
+		};
+		6997E9932959C15F00278642 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
 				69E413E62941F29A002FE99D /* WeatherModel.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		69E413DD2941F064002FE99D /* WeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				6997E9912959C13200278642 /* Views */,
+				6997E9922959C14D00278642 /* WeatherManager */,
+				6997E9932959C15F00278642 /* WeatherModel */,
 			);
 			path = WeatherView;
 			sourceTree = "<group>";
